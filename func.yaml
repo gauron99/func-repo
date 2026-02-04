@@ -3,4 +3,9 @@
 specVersion: 0.36.0
 name: func-repo
 runtime: go
+registry: quay.io/dfridric
 created: 2026-02-04T16:31:41.287604169+01:00
+build:
+  builder: pack
+deploy:
+  deployer: raw
